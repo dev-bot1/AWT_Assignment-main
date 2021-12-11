@@ -1,0 +1,75 @@
+.header {
+    background-color: #9c27b0;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header p {
+    margin: 0;
+}
+.logout {
+    padding: 10px;
+    background-color: #424242;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.logout:hover {
+    transform: scale(1.01);
+}
+.buttons {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clicks {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.clicks button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #9c27b0;
+    border: none;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+    margin: 5px;
+}
+.clicks button:hover {
+    background-color: #424242;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+.container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+}
+.sports {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #000;
+    margin-bottom: 60px;
+}
+.foot {
+    margin-top: 16vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9c27b0;
+    font-size: 1.2rem;
+    color: white;
+}

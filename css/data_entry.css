@@ -1,0 +1,70 @@
+.header {
+    background-color: #9c27b0;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header p {
+    margin: 0;
+}
+.logout {
+    padding: 10px;
+    background-color: #424242;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}
+.logout:hover {
+    color: #fff;
+}
+.form_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c27b0;
+    height: 87vh;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 40px 0px;
+    padding: 25px 55px;
+    font-size: 1.2rem;
+    background-color: #9c27b0;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.form input {
+    margin-bottom: 20px;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+}
+.btn_submit {
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #424242;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.btn_submit:hover {
+    background-color: #424242;
+}
+.data_entered {
+    color: white;
+    background-color: #9c27b0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}

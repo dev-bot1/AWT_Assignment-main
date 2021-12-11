@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./index.js" defer></script>
+        <link rel="stylesheet" href="./css/acc.css" />
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+        <title>Create_Account</title>
+    </head>
+    <body>
+        <div class="header">
+            <p>Create Account</p>
+        </div>
+
+        <div class="form_div">
+            <form class="form" action="create_acc.php" method="post">
+                <input type="text" id="name" name="Name" placeholder="Name" />
+                <input
+                    type="text"
+                    id="regno"
+                    name="regno"
+                    placeholder="Registration no"
+                />
+                <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                />
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Password"
+                />
+                <input
+                    type="password"
+                    id="confirm_password"
+                    name="confirm_password"
+                    placeholder="Confirm password"
+                />
+                <button type="submit" class="btn_submit">Submit</button>
+                <button type="button" class="btn_submit" onclick="Go_login()">
+                    Login
+                </button>
+            </form>
+        </div>
+    </body>
+</html>
